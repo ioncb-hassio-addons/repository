@@ -1,4 +1,4 @@
-# IonCB Home Assistant Add-on: Example
+# Home Assistant Community Add-on: Example
 
 This is an example add-on for Home Assistant. When started, it displays a
 random quote every 5 seconds.
@@ -88,7 +88,7 @@ You could also [open an issue here][issue] GitHub.
 
 ## Authors & contributors
 
-The original setup of this repository is by [Franck Nijhof][frenck].
+The original setup of this repository is by [Jhon Coronel][jhoncb].
 
 For a full list of all authors and contributors,
 check [the contributor's page][contributors].
@@ -97,7 +97,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2017-2025 Franck Nijhof
+Copyright (c) 2017-2025 Jhon Coronel
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -118,9 +118,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
-[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=4dd71ed5_example&repository_url=https%3A%2F%2Fgithub.com%2Fioncb-hassio-addons%2Frepository
+[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_example&repository_url=https%3A%2F%2Fgithub.com%2Fioncb-hassio-addons%2Frepository
 [contributors]: https://github.com/ioncb-hassio-addons/addon-example/graphs/contributors
-[frenck]: https://github.com/frenck
+[jhoncb]: https://github.com/jhoncb
 [issue]: https://github.com/ioncb-hassio-addons/addon-example/issues
 [releases]: https://github.com/ioncb-hassio-addons/addon-example/releases
 [semver]: http://semver.org/spec/v2.0.0.html
