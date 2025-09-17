@@ -27,7 +27,7 @@ Home Assistant add-on store, a possibility to add a repository is provided.
 Use the following URL to add this repository:
 
 ```txt
-https://github.com/ioncb-ioncb-hassio-addons/repository
+https://github.com/ioncb-hassio-addons/repository
 ```
 
 ## Add-ons provided by this repository
@@ -48,12 +48,12 @@ Example add-on by Community Home Assistant Add-ons
 ## Releases
 
 Releases are based on [Semantic Versioning][semver], and use the format
-of `MAJOR.MINOR.PATCH`. In a nutshell, the version will be incremented
+of ``MAJOR.MINOR.PATCH``. In a nutshell, the version will be incremented
 based on the following:
 
-- `MAJOR`: Incompatible or major changes.
-- `MINOR`: Backwards-compatible new features and enhancements.
-- `PATCH`: Backwards-compatible bugfixes and package updates.
+- ``MAJOR``: Incompatible or major changes.
+- ``MINOR``: Backwards-compatible new features and enhancements.
+- ``PATCH``: Backwards-compatible bugfixes and package updates.
 
 ## Support
 
@@ -113,6 +113,6 @@ SOFTWARE.
 [jhoncb]: https://github.com/jhoncb
 [issue]: https://github.com/ioncb-hassio-addons/repository/issues
 [license-shield]: https://img.shields.io/github/license/ioncb-hassio-addons/repository.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2024.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [semver]: http://semver.org/spec/v2.0.0.html
