@@ -2,4 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Added Example repository
+- ⬆️ Added Example repository v0.0.2
