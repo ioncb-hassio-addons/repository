@@ -17,9 +17,6 @@ mkdir -p docs
 # Install requirements
 pip install -r requirements.txt
 
-# Download Beta page
-curl https://raw.githubusercontent.com/ioncb-hassio-addons/repository-beta/master/README.md --output docs/beta.md
-
 # Download Edge page
 curl https://raw.githubusercontent.com/ioncb-hassio-addons/repository-edge/master/README.md --output docs/edge.md
 
