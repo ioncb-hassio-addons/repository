@@ -1,4 +1,4 @@
-# IonCB Home Assistant Add-ons
+# IonCB Home Assistant Apps
 
 ![Project Stage][project-stage-shield]
 ![Maintenance][maintenance-shield]
@@ -6,12 +6,12 @@
 
 ## About
 
-Home Assistant allows anyone to create add-on repositories to share their
-add-ons for Home Assistant easily. This repository is one of those repositories,
-providing extra Home Assistant add-ons for your installation.
+Home Assistant allows anyone to create app repositories to share their
+apps for Home Assistant easily. This repository is one of those repositories,
+providing extra Home Assistant apps for your installation.
 
 The primary goal of this project is to provide you (as a Home Assistant user)
-with additional, high quality, add-ons that allow you to take your automated
+with additional, high quality, apps that allow you to take your automated
 home to the next level.
 
 ## Installation
@@ -20,9 +20,9 @@ In general, there is no need to install this repository on your
 Home Assistant instance. It is activated and added by Home Assistant
 by default.
 
-However, if the repository is missing on your setup, adding this add-ons
+However, if the repository is missing on your setup, adding this apps
 repository to your Home Assistant instance is pretty easy. In the
-Home Assistant add-on store, a possibility to add a repository is provided.
+Home Assistant app store, a possibility to add a repository is provided.
 
 Use the following URL to add this repository:
 
@@ -30,7 +30,7 @@ Use the following URL to add this repository:
 https://github.com/ioncb-hassio-addons/repository
 ```
 
-## Add-ons provided by this repository
+## Apps provided by this repository
 
 ### &#10003; [Example][addon-example]
 
@@ -41,35 +41,35 @@ https://github.com/ioncb-hassio-addons/repository
 ![Supports amd64 Architecture][example-amd64-shield]
 ![Supports i386 Architecture][example-i386-shield]
 
-Example add-on by Community Home Assistant Add-ons
+Example app by Community Home Assistant Apps
 
-[:books: Example add-on documentation][addon-doc-example]
+[:books: Example app documentation][addon-doc-example]
 
 ## Releases
 
 Releases are based on [Semantic Versioning][semver], and use the format
-of ``MAJOR.MINOR.PATCH``. In a nutshell, the version will be incremented
+of `MAJOR.MINOR.PATCH`. In a nutshell, the version will be incremented
 based on the following:
 
-- ``MAJOR``: Incompatible or major changes.
-- ``MINOR``: Backwards-compatible new features and enhancements.
-- ``PATCH``: Backwards-compatible bugfixes and package updates.
+- `MAJOR`: Incompatible or major changes.
+- `MINOR`: Backwards-compatible new features and enhancements.
+- `PATCH`: Backwards-compatible bugfixes and package updates.
 
 ## Support
 
 Got questions?
 
 You could also open an issue here on GitHub. Note, we use a separate
-GitHub repository for each add-on. Please ensure you are creating the issue
-on the correct GitHub repository matching the add-on.
+GitHub repository for each app. Please ensure you are creating the issue
+on the correct GitHub repository matching the app.
 
-- [Open an issue for the add-on: Example][example-issue]
+- [Open an issue for the app: Example][example-issue]
 
-For a general repository issue or add-on ideas [open an issue here][issue]
+For a general repository issue or app ideas [open an issue here][issue]
 
-## Adding a new add-on
+## Adding a new app
 
-We are currently not accepting third party add-ons to this repository.
+We are currently not accepting third party apps to this repository.
 
 For questions, please contact [Jhon Coronel][jhoncb]:
 
@@ -79,7 +79,7 @@ For questions, please contact [Jhon Coronel][jhoncb]:
 
 MIT License
 
-Copyright (c) 2025 Jhon Coronel
+Copyright (c) 2026 Jhon Coronel
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -99,9 +99,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[addon-example]: https://github.com/ioncb-hassio-addons/addon-example/tree/v0.0.9
-[addon-doc-example]: https://github.com/ioncb-hassio-addons/addon-example/blob/v0.0.9/README.md
-[example-issue]: https://github.com/ioncb-hassio-addons/addon-example/issues
+[addon-example]: https://github.com/ioncb-hassio-addons/app-example/tree/v0.0.9
+[addon-doc-example]: https://github.com/ioncb-hassio-addons/app-example/blob/v0.0.9/README.md
+[example-issue]: https://github.com/ioncb-hassio-addons/app-example/issues
 [example-version-shield]: https://img.shields.io/badge/version-v0.0.9-blue.svg
 [example-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [example-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
@@ -113,6 +113,6 @@ SOFTWARE.
 [jhoncb]: https://github.com/jhoncb
 [issue]: https://github.com/ioncb-hassio-addons/repository/issues
 [license-shield]: https://img.shields.io/github/license/ioncb-hassio-addons/repository.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2024.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [semver]: http://semver.org/spec/v2.0.0.html

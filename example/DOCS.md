@@ -97,7 +97,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2017-2025 Franck Nijhof
+Copyright (c) 2017-2026 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -119,8 +119,8 @@ SOFTWARE.
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
 [addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=4dd71ed5_example&repository_url=https%3A%2F%2Fgithub.com%2Fioncb-hassio-addons%2Frepository
-[contributors]: https://github.com/ioncb-hassio-addons/addon-example/graphs/contributors
+[contributors]: https://github.com/ioncb-hassio-addons/app-example/graphs/contributors
 [jhoncb]: https://github.com/jhoncb
-[issue]: https://github.com/ioncb-hassio-addons/addon-example/issues
-[releases]: https://github.com/ioncb-hassio-addons/addon-example/releases
+[issue]: https://github.com/ioncb-hassio-addons/app-example/issues
+[releases]: https://github.com/ioncb-hassio-addons/app-example/releases
 [semver]: http://semver.org/spec/v2.0.0.html

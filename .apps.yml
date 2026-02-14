@@ -1,0 +1,7 @@
+---
+channel: stable
+apps:
+  example:
+    repository: ioncb-hassio-addons/app-example
+    target: example
+    image: ghcr.io/ioncb-hassio-addons/example
