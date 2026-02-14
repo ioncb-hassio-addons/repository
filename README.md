@@ -73,7 +73,7 @@ We are currently not accepting third party apps to this repository.
 
 For questions, please contact [Jhon Coronel][jhoncb]:
 
-- Drop him an email: dev.jhon.pe@gmail.com
+- Drop him an email: jcoronel@ioncb.com
 
 ## License
 
