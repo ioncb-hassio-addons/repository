@@ -1,6 +1,6 @@
-# Home Assistant Community Add-on: Example
+# Home Assistant Community App: Example
 
-This is an example add-on for Home Assistant. When started, it displays a
+This is an example app for Home Assistant. When started, it displays a
 random quote every 5 seconds.
 
 It shows off several features and structures like:
@@ -11,32 +11,32 @@ It shows off several features and structures like:
 - General shell scripting structure (`run.sh`).
 - Quality assurance using CodeClimate.
 - Continuous integration and deployment using GitLab.
-- Usage of the Community Home Assistant Add-ons build environment.
+- Usage of the Home Assistant Community Apps build environment.
 - Small use of the Bash function library in our base images.
 - The use of Docker label schema.
 
 ## Installation
 
-The installation of this add-on is pretty straightforward and not different in
-comparison to installing any other Home Assistant add-on.
+The installation of this app is pretty straightforward and not different in
+comparison to installing any other Home Assistant app.
 
-1. Click the Home Assistant My button below to open the add-on on your Home
+1. Click the Home Assistant My button below to open the app on your Home
    Assistant instance.
 
-   [![Open this add-on in your Home Assistant instance.][addon-badge]][addon]
+   [![Open this app in your Home Assistant instance.][addon-badge]][addon]
 
-1. Click the "Install" button to install the add-on.
-1. Start the "Example" add-on.
-1. Check the logs of the "Example" add-on to see it in action.
+1. Click the "Install" button to install the app.
+1. Start the "Example" app.
+1. Check the logs of the "Example" app to see it in action.
 
 ## Configuration
 
-Eventought this add-on is just an example add-on, it does come with some
+Eventought this app is just an example app, it does come with some
 configuration options to play around with.
 
-**Note**: _Remember to restart the add-on when the configuration is changed._
+**Note**: _Remember to restart the app when the configuration is changed._
 
-Example add-on configuration:
+Example app configuration:
 
 ```yaml
 log_level: info
@@ -45,7 +45,7 @@ seconds_between_quotes: 5
 
 ### Option: `log_level`
 
-The `log_level` option controls the level of log output by the add-on and can
+The `log_level` option controls the level of log output by the app and can
 be changed to be more or less verbose, which might be useful when you are
 dealing with an unknown issue. Possible values are:
 
@@ -54,7 +54,7 @@ dealing with an unknown issue. Possible values are:
 - `info`: Normal (usually) interesting events.
 - `warning`: Exceptional occurrences that are not errors.
 - `error`: Runtime errors that do not require immediate action.
-- `fatal`: Something went terribly wrong. Add-on becomes unusable.
+- `fatal`: Something went terribly wrong. App becomes unusable.
 
 Please note that each level automatically includes log messages from a
 more severe level, e.g., `debug` also shows `info` messages. By default,
