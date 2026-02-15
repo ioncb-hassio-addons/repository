@@ -57,7 +57,6 @@ markdown_extensions:
 # The pages to serve
 nav:
   - "Our Apps": "index.md"
-  - "Beta Apps": "beta.md"
   - "Edge Apps": "edge.md"
   - "Contributing": "contributing.md"
   - "Code of Conduct": "code-of-conduct.md"
