@@ -41,19 +41,19 @@ https://github.com/ioncb-hassio-addons/repository
 ![Supports amd64 Architecture][example-amd64-shield]
 ![Supports i386 Architecture][example-i386-shield]
 
-Example app by Community Home Assistant Apps
+Example app by Home Assistant Community Apps
 
 [:books: Example app documentation][addon-doc-example]
 
 ## Releases
 
 Releases are based on [Semantic Versioning][semver], and use the format
-of `MAJOR.MINOR.PATCH`. In a nutshell, the version will be incremented
+of ``MAJOR.MINOR.PATCH``. In a nutshell, the version will be incremented
 based on the following:
 
-- `MAJOR`: Incompatible or major changes.
-- `MINOR`: Backwards-compatible new features and enhancements.
-- `PATCH`: Backwards-compatible bugfixes and package updates.
+- ``MAJOR``: Incompatible or major changes.
+- ``MINOR``: Backwards-compatible new features and enhancements.
+- ``PATCH``: Backwards-compatible bugfixes and package updates.
 
 ## Support
 
