@@ -1,2 +1,4 @@
 ## What’s changed
-- Set default repository names in deploy workflow @jhoncb (#23)
+## 🐛 Bug fixes
+
+- Simplify information job in deploy workflow @jhoncb (#24)

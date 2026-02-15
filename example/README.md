@@ -27,5 +27,5 @@ It shows off several features and structures like:
 [github-sponsors]: https://github.com/sponsors/jhoncb
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v0.0.11-blue.svg
-[release]: https://github.com/ioncb-hassio-addons/app-example/tree/v0.0.11
+[release-shield]: https://img.shields.io/badge/version-v0.0.12-blue.svg
+[release]: https://github.com/ioncb-hassio-addons/app-example/tree/v0.0.12
