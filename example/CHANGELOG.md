@@ -1,4 +1,4 @@
 ## What’s changed
-## 🐛 Bug fixes
+## ⬆️ Dependency updates
 
-- Simplify information job in deploy workflow @jhoncb (#24)
+- ⬆️ Update actions/dependency-review-action action to v4.8.3 @[renovate[bot]](https://github.com/apps/renovate) (#25)
