@@ -35,11 +35,6 @@ https://github.com/ioncb-hassio-addons/repository
 ### &#10003; [Example][addon-example]
 
 ![Latest Version][example-version-shield]
-![Supports armhf Architecture][example-armhf-shield]
-![Supports armv7 Architecture][example-armv7-shield]
-![Supports aarch64 Architecture][example-aarch64-shield]
-![Supports amd64 Architecture][example-amd64-shield]
-![Supports i386 Architecture][example-i386-shield]
 
 Example app by Home Assistant Community Apps
 
@@ -103,11 +98,6 @@ SOFTWARE.
 [addon-doc-example]: https://github.com/ioncb-hassio-addons/app-example/blob/v0.0.13/README.md
 [example-issue]: https://github.com/ioncb-hassio-addons/app-example/issues
 [example-version-shield]: https://img.shields.io/badge/version-v0.0.13-blue.svg
-[example-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[example-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[example-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[example-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
-[example-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [awesome-shield]: https://img.shields.io/badge/awesome%3F-yes-brightgreen.svg
 [awesome]: https://awesome-ha.com
 [jhoncb]: https://github.com/jhoncb
