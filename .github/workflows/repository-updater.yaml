@@ -14,28 +14,3 @@ jobs:
     uses: hassio-addons/workflows/.github/workflows/repository-updater.yaml@adec4b96071354cc44924a6ef9975ff60cf9ddd9 # v5.0.0
     secrets:
       UPDATER_TOKEN: ${{ secrets.UPDATER_TOKEN }}
-
-  # Optional Discord announcement. Keep disabled until DISCORD_WEBHOOK is configured.
-  # announce:
-  #   name: Announce app update
-  #   needs: workflows
-  #   runs-on: ubuntu-latest
-  #   permissions: {}
-  #   steps:
-  #     - name: Announce on Discord
-  #       uses: sarisia/actions-status-discord@eb045afee445dc055c18d3d90bd0f244fd062708 # v1.16.0
-  #       with:
-  #         webhook: ${{ secrets.DISCORD_WEBHOOK }}
-  #         nodetail: true
-  #         username: ${{ github.event.client_payload.name }}
-  #         avatar_url: >-
-  #           https://raw.githubusercontent.com/${{ github.repository }}/master/${{ github.event.client_payload.app }}/icon.png
-  #         title: ":arrow_up: ${{ github.event.client_payload.name }} ${{ github.event.client_payload.version }}"
-  #         image: >-
-  #           https://raw.githubusercontent.com/${{ github.repository }}/master/${{ github.event.client_payload.app }}/logo.png
-  #         description: |
-  #           A new version of the ${{ github.event.client_payload.name }} app has been published.
-  #
-  #           **Version**: `${{ github.event.client_payload.version }}`
-  #           **Release notes**:
-  #           <https://github.com/${{ github.event.client_payload.repository }}/releases/tag/${{ github.event.client_payload.version }}>
