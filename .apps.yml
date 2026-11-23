@@ -1,6 +1,10 @@
 ---
 channel: stable
 apps:
+  retro-web:
+    repository: ioncb-hassio-addons/app-retro-web
+    target: retro-web
+    image: ghcr.io/ioncb-hassio-addons/retro-web
   example:
     repository: ioncb-hassio-addons/app-example
     target: example
