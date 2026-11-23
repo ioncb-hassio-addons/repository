@@ -16,10 +16,10 @@ It shows off several features and structures like:
 - Full blown GitHub repository.
 - General Dockerfile structure and setup.
 - The use of the `config.yaml` and `build.yaml` files.
-- General shell scripting structure (`run.sh`).
-- Quality assurance using CodeClimate.
-- Continuous integration and deployment using GitLab.
-- Usage of the Home Assistant Community Apps build environment.
+- General structure on how to use S6 overlay with services.
+- Basic usage of Bashio.
+- Continuous integration and deployment using GitHub Actions.
+- Deployment to the GitHub Container registry.
 - Small use of the Bash function library in our base images.
 - The use of Docker label schema.
 
@@ -27,5 +27,5 @@ It shows off several features and structures like:
 [github-sponsors]: https://github.com/sponsors/jhoncb
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v0.0.13-blue.svg
-[release]: https://github.com/ioncb-hassio-addons/app-example/tree/v0.0.13
+[release-shield]: https://img.shields.io/badge/version-v0.0.14-blue.svg
+[release]: https://github.com/ioncb-hassio-addons/app-example/tree/v0.0.14
