@@ -1,5 +1,1 @@
-## What’s changed
-
-## 🚀 Enhancements
-
-- fix: restore initial styles @jhoncb ([#17](https://github.com/ioncb-hassio-addons/app-retro-web/pull/17))
+**Full Changelog**: https://github.com/ioncb-hassio-addons/app-retro-web/compare/v0.0.2...v0.0.3

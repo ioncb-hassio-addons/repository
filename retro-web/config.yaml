@@ -1,5 +1,5 @@
 name: Retro Web
-version: 0.0.2
+version: 0.0.3
 slug: retro-web
 description: Profile-based retro game library with server-side saves
 url: https://github.com/ioncb-hassio-addons/app-retro-web
@@ -7,6 +7,7 @@ init: false
 ingress: true
 panel_icon: mdi:gamepad-variant
 panel_title: Retro Web
+panel_admin: false
 arch:
 - aarch64
 - amd64
