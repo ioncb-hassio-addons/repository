@@ -1,5 +1,5 @@
 name: Retro Web
-version: 0.0.1
+version: 0.0.2
 slug: retro-web
 description: Profile-based retro game library with server-side saves
 url: https://github.com/ioncb-hassio-addons/app-retro-web

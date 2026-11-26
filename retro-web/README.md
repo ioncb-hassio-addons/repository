@@ -20,7 +20,7 @@ Profile-based retro game library for Home Assistant.
 Retro Web does not contain or distribute ROMs or BIOS files. Only use media
 that you are legally authorized to copy and emulate.
 
-[release-shield]: https://img.shields.io/badge/version-v0.0.1-blue.svg
-[release]: https://github.com/ioncb-hassio-addons/app-retro-web/tree/v0.0.1
+[release-shield]: https://img.shields.io/badge/version-v0.0.2-blue.svg
+[release]: https://github.com/ioncb-hassio-addons/app-retro-web/tree/v0.0.2
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-orange.svg

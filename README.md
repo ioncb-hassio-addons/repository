@@ -107,10 +107,10 @@ SOFTWARE.
 [addon-doc-example]: https://github.com/ioncb-hassio-addons/app-example/blob/v0.0.15/README.md
 [example-issue]: https://github.com/ioncb-hassio-addons/app-example/issues
 [example-version-shield]: https://img.shields.io/badge/version-v0.0.15-blue.svg
-[addon-retro-web]: https://github.com/ioncb-hassio-addons/app-retro-web/tree/v0.0.1
-[addon-doc-retro-web]: https://github.com/ioncb-hassio-addons/app-retro-web/blob/v0.0.1/README.md
+[addon-retro-web]: https://github.com/ioncb-hassio-addons/app-retro-web/tree/v0.0.2
+[addon-doc-retro-web]: https://github.com/ioncb-hassio-addons/app-retro-web/blob/v0.0.2/README.md
 [retro-web-issue]: https://github.com/ioncb-hassio-addons/app-retro-web/issues
-[retro-web-version-shield]: https://img.shields.io/badge/version-v0.0.1-blue.svg
+[retro-web-version-shield]: https://img.shields.io/badge/version-v0.0.2-blue.svg
 [awesome-shield]: https://img.shields.io/badge/awesome%3F-yes-brightgreen.svg
 [awesome]: https://awesome-ha.com
 [jhoncb]: https://github.com/jhoncb
