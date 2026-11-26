@@ -1,0 +1,53 @@
+---
+configuration:
+  log_level:
+    name: Log level
+    description: Amount of logging produced by the app.
+  external_access:
+    name: External access
+    description: Enable the authenticated external web listener.
+  external_username:
+    name: External username
+    description: Username required to use the external listener.
+  external_password:
+    name: External password
+    description: Password required to use the external listener.
+  allow_external_rom_upload:
+    name: Allow external ROM uploads
+    description: Enable administrator uploads outside Home Assistant Ingress.
+  external_admin_password:
+    name: External administrator password
+    description: Separate password required to enter external administration.
+  session_timeout_hours:
+    name: Session timeout
+    description: Lifetime of an external session in hours.
+  max_upload_mb:
+    name: Maximum upload size
+    description: Maximum ROM or BIOS upload size in megabytes.
+  profile_limit:
+    name: Profile limit
+    description: Maximum number of local player profiles.
+  enable_arcade:
+    name: Arcade support
+    description: Allow FinalBurn Neo Arcade ROM uploads.
+  ssl:
+    name: Use Home Assistant certificates
+    description: When enabled, use certfile and keyfile from /ssl. When disabled, port 8098 uses a persistent self-signed certificate.
+  certfile:
+    name: Certificate file
+    description: Certificate filename inside /ssl, such as fullchain.pem.
+  keyfile:
+    name: Private key file
+    description: Private key filename inside /ssl, such as privkey.pem.
+  tls_self_signed_days:
+    name: Self-signed certificate lifetime
+    description: Lifetime in days for the automatically generated certificate.
+  tls_self_signed_common_name:
+    name: Self-signed certificate name
+    description: Optional certificate common name. Defaults to retro-web.local.
+  rom_index_interval_minutes:
+    name: ROM index interval
+    description: Interval in minutes for automatically scanning ROM and BIOS folders.
+  enable_cover_indexing:
+    name: Automatic cover search
+    description: Search Libretro databases and thumbnails for indexed games.

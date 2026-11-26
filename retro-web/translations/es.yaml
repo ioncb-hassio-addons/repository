@@ -1,0 +1,53 @@
+---
+configuration:
+  log_level:
+    name: Nivel de registro
+    description: Cantidad de información registrada por la app.
+  external_access:
+    name: Acceso externo
+    description: Habilita el servidor web externo con autenticación.
+  external_username:
+    name: Usuario externo
+    description: Usuario requerido para acceder al servidor externo.
+  external_password:
+    name: Contraseña externa
+    description: Contraseña requerida para acceder al servidor externo.
+  allow_external_rom_upload:
+    name: Permitir carga externa de ROMs
+    description: Permite cargar contenido como administrador fuera de Home Assistant Ingress.
+  external_admin_password:
+    name: Contraseña de administrador externo
+    description: Contraseña independiente requerida para acceder a la administración externa.
+  session_timeout_hours:
+    name: Tiempo de sesión
+    description: Duración de una sesión externa en horas.
+  max_upload_mb:
+    name: Tamaño máximo de carga
+    description: Tamaño máximo de una ROM o BIOS en megabytes.
+  profile_limit:
+    name: Límite de perfiles
+    description: Número máximo de perfiles locales de jugadores.
+  enable_arcade:
+    name: Compatibilidad con Arcade
+    description: Permite cargar ROMs Arcade para FinalBurn Neo.
+  ssl:
+    name: Usar certificados de Home Assistant
+    description: Cuando está habilitado, usa certfile y keyfile desde /ssl. Cuando está deshabilitado, el puerto 8098 usa un certificado autofirmado persistente.
+  certfile:
+    name: Archivo de certificado
+    description: Nombre del certificado dentro de /ssl, por ejemplo fullchain.pem.
+  keyfile:
+    name: Archivo de clave privada
+    description: Nombre de la clave privada dentro de /ssl, por ejemplo privkey.pem.
+  tls_self_signed_days:
+    name: Duración del certificado autofirmado
+    description: Duración en días del certificado generado automáticamente.
+  tls_self_signed_common_name:
+    name: Nombre del certificado autofirmado
+    description: Nombre común opcional del certificado. Por defecto usa retro-web.local.
+  rom_index_interval_minutes:
+    name: Intervalo de indexación de ROM
+    description: Intervalo en minutos para escanear automáticamente las carpetas ROM y BIOS.
+  enable_cover_indexing:
+    name: Búsqueda automática de carátulas
+    description: Busca en bases de datos y miniaturas de Libretro para los juegos indexados.

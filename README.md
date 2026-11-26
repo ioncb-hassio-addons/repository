@@ -40,6 +40,14 @@ Example app by Home Assistant Community Apps
 
 [:books: Example app documentation][addon-doc-example]
 
+### &#10003; [Retro Web][addon-retro-web]
+
+![Latest Version][retro-web-version-shield]
+
+Profile-based retro game library with server-side saves
+
+[:books: Retro Web app documentation][addon-doc-retro-web]
+
 ## Releases
 
 Releases are based on [Semantic Versioning][semver], and use the format
@@ -59,6 +67,7 @@ GitHub repository for each app. Please ensure you are creating the issue
 on the correct GitHub repository matching the app.
 
 - [Open an issue for the app: Example][example-issue]
+- [Open an issue for the app: Retro Web][retro-web-issue]
 
 For a general repository issue or app ideas [open an issue here][issue]
 
@@ -98,6 +107,10 @@ SOFTWARE.
 [addon-doc-example]: https://github.com/ioncb-hassio-addons/app-example/blob/v0.0.15/README.md
 [example-issue]: https://github.com/ioncb-hassio-addons/app-example/issues
 [example-version-shield]: https://img.shields.io/badge/version-v0.0.15-blue.svg
+[addon-retro-web]: https://github.com/ioncb-hassio-addons/app-retro-web/tree/v0.0.1
+[addon-doc-retro-web]: https://github.com/ioncb-hassio-addons/app-retro-web/blob/v0.0.1/README.md
+[retro-web-issue]: https://github.com/ioncb-hassio-addons/app-retro-web/issues
+[retro-web-version-shield]: https://img.shields.io/badge/version-v0.0.1-blue.svg
 [awesome-shield]: https://img.shields.io/badge/awesome%3F-yes-brightgreen.svg
 [awesome]: https://awesome-ha.com
 [jhoncb]: https://github.com/jhoncb
